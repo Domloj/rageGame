@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 3f253904972a76e4da0b1a948730b5c7
+guid: 1ddcb7bdb637b5a4691fb1d5de4fe880
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 353980265443720542
-    second: largePlatform_0
+      213: -3240183642989287582
+    second: walls_sheet_0
+  - first:
+      213: 8036631262447723369
+    second: walls_sheet_1
+  - first:
+      213: 4001644228093445741
+    second: walls_sheet_2
+  - first:
+      213: -215979093465364730
+    second: walls_sheet_3
+  - first:
+      213: -7002067211502165094
+    second: walls_sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +125,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: largePlatform_0
+      name: walls_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267a798d42e8803d0800000000000000
+      internalID: -3240183642989287582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963eef4ad89d78f60800000000000000
+      internalID: 8036631262447723369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66800d4932b88730800000000000000
+      internalID: 4001644228093445741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6070617a820b00df0800000000000000
+      internalID: -215979093465364730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93e00d38f8a3de90800000000000000
+      internalID: -7002067211502165094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9021e197a6995a4fb9da185563da927
+      internalID: 848019797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walls_sheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -126,76 +270,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e5d754b0d2799e400800000000000000
-      internalID: 353980265443720542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: largePlatform_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884a6f5053ccb524688652fba9722631
-      internalID: 1947031081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: largePlatform_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bc75660f25f14a47abbdb99191bbe73
-      internalID: 2135022136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: largePlatform_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9835f464583be51458e982e6dae6baf5
-      internalID: 948677660
+      spriteID: d3c8d833e34364643b50a4efae62d83a
+      internalID: 1133440578
       vertices: []
       indices: 
       edges: []
@@ -204,7 +282,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5fb3f428bd2fc77459718ad95320af5c
+    spriteID: 16675e43571112247a9c203d9d608e94
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +292,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      largePlatform_0: 353980265443720542
-      largePlatform_1: 1947031081
-      largePlatform_2: 2135022136
-      largePlatform_3: 948677660
+      walls_sheet_0: -3240183642989287582
+      walls_sheet_1: 8036631262447723369
+      walls_sheet_2: 4001644228093445741
+      walls_sheet_3: -215979093465364730
+      walls_sheet_4: -7002067211502165094
+      walls_sheet_5: 848019797
+      walls_sheet_6: 1133440578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

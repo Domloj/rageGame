@@ -24,9 +24,9 @@ public class PlayerController : MonoBehaviour
 
         // obrót postaci lewo-prawo
         if (xInput > 0.01f)
-            transform.localScale = new Vector3(0.5f, 0.5f, 1);
+            transform.localScale = new Vector3(1f, 1f, 1);
         else if (xInput < -0.01f)
-            transform.localScale = new Vector3(-0.5f, 0.5f, 1);
+            transform.localScale = new Vector3(-1f, 1f, 1);
 
         // Skakanie W
         if (Input.GetKey(KeyCode.W) && grounded)

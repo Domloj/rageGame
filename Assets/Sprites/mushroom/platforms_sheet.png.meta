@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 3f253904972a76e4da0b1a948730b5c7
+guid: 0b0f97c171aa70a4895012d06ed4b9ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 353980265443720542
-    second: largePlatform_0
+      213: -7767286203286348748
+    second: platforms_sheet_0
+  - first:
+      213: 8319218418043908665
+    second: platforms_sheet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +49,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,7 +116,95 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: largePlatform_0
+      name: platforms_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c1358d95e053490800000000000000
+      internalID: -7767286203286348748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platforms_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932f468f21dc37370800000000000000
+      internalID: 8319218418043908665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platforms_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedd8ca1bd310544a9239de3a08aea48
+      internalID: 1773996007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platforms_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5be3b68a39b1749b46b58b10a7b769
+      internalID: 469135691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platforms_sheet_4
       rect:
         serializedVersion: 2
         x: 0
@@ -121,21 +212,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5d754b0d2799e400800000000000000
-      internalID: 353980265443720542
+      spriteID: a17f1a50856241e4c871c9fb64b66500
+      internalID: -1350988816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largePlatform_1
+      name: platforms_sheet_5
       rect:
         serializedVersion: 2
         x: 16
@@ -143,21 +234,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884a6f5053ccb524688652fba9722631
-      internalID: 1947031081
+      spriteID: f30011d368af4b3479887c86bb80f339
+      internalID: -2134085931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largePlatform_2
+      name: platforms_sheet_6
       rect:
         serializedVersion: 2
         x: 32
@@ -165,21 +256,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc75660f25f14a47abbdb99191bbe73
-      internalID: 2135022136
+      spriteID: f50b420f39c53f641839cb052035579a
+      internalID: 1825952975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: largePlatform_3
+      name: platforms_sheet_7
       rect:
         serializedVersion: 2
         x: 48
@@ -187,15 +278,15 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9835f464583be51458e982e6dae6baf5
-      internalID: 948677660
+      spriteID: 54a7e9b017ef6204e936277bba234c5d
+      internalID: -839384835
       vertices: []
       indices: 
       edges: []
@@ -204,7 +295,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5fb3f428bd2fc77459718ad95320af5c
+    spriteID: a3b74d36d6b8add42b5d6d6a5ea536c9
     internalID: 0
     vertices: []
     indices: 
@@ -214,10 +305,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      largePlatform_0: 353980265443720542
-      largePlatform_1: 1947031081
-      largePlatform_2: 2135022136
-      largePlatform_3: 948677660
+      platforms_sheet_0: -7767286203286348748
+      platforms_sheet_1: 8319218418043908665
+      platforms_sheet_2: 1773996007
+      platforms_sheet_3: 469135691
+      platforms_sheet_4: -1350988816
+      platforms_sheet_5: -2134085931
+      platforms_sheet_6: 1825952975
+      platforms_sheet_7: -839384835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
