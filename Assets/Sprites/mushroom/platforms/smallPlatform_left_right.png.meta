@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 69b6df458d5201e49aa6fb59ac65767c
+guid: 178f37b5435fea24093b461308100974
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: smallPlatform_0
+      name: smallPlatform_left_right_2
       rect:
         serializedVersion: 2
         x: 0
@@ -121,21 +121,21 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 15e88ffdb82cd6f40800000000000000
-      internalID: 5723444607471619665
+      spriteID: eef31a6fe3aa48c438070cdbfc10c0c4
+      internalID: 254478912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: smallPlatform_1
+      name: smallPlatform_left_right_3
       rect:
         serializedVersion: 2
         x: 16
@@ -143,15 +143,15 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aab337c81cb4df4da7dd1be5e7e716b
-      internalID: -96869956
+      spriteID: 7d141fec0d958e447bcd6fa5b5c65d4c
+      internalID: 1097490419
       vertices: []
       indices: 
       edges: []
@@ -170,10 +170,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      smallPlatform_0: 5723444607471619665
-      smallPlatform_1: -96869956
-      smallPlatform_2: -1414447015
-      smallPlatform_3: 1284493760
+      smallPlatform_left_right_0: 1877656418
+      smallPlatform_left_right_1: -148073223
+      smallPlatform_left_right_2: 254478912
+      smallPlatform_left_right_3: 1097490419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

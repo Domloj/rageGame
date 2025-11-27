@@ -26,7 +26,10 @@ public class Health : MonoBehaviour
 
         if (currentHealth == 0)
         {
-            SoundManager.instance.PlaySound(deathSound);
+            if (deathSound != null && SoundManager.instance != null)
+            {
+                SoundManager.instance.PlaySound(deathSound);
+            }
             GetComponent<PlayerController>().enabled = false;
             uIManager.GameOver();
         }
