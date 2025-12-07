@@ -13,3 +13,4 @@ Packages/com.unity.collab-proxy/
 *.csproj
 *.htm
 *.html
+*.vsconfig
